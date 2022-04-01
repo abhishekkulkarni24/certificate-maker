@@ -1,11 +1,11 @@
 import 'minireset.css';
 import './App.css';
-import './logo.png' as logo;
+import Logo from './logo.png';
 
 function App({ name, course, date }) {
   return (
     <div className="App">
-      <logo />
+      <img src={Logo}>
       <p className="byline">Certificate of completion</p>
 
       <div className="content">
