@@ -5,7 +5,8 @@ import Logo from './logo.png';
 function App({ name, course, date }) {
   return (
     <div className="App">
-      <img src={Logo}>
+      <img src={Logo} />
+      <h1>Apex Brains</h1>
       <p className="byline">Certificate of completion</p>
 
       <div className="content">
